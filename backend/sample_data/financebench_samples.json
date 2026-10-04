@@ -1,0 +1,110 @@
+[
+  {
+    "id": "FB-AAPL-001",
+    "company": "Apple Inc.",
+    "filing_type": "10-K",
+    "year": "2023",
+    "question": "What was Apple's total net sales for the fiscal year ended September 30, 2023?",
+    "ground_truth_answer": "Apple's total net sales for fiscal year 2023 were $383,285 million ($383.29 billion), compared to $394,328 million in fiscal year 2022.",
+    "ground_truth_page": 24,
+    "question_type": "numerical",
+    "is_out_of_domain": false,
+    "key_figures": ["383,285", "383.285", "383"]
+  },
+  {
+    "id": "FB-AAPL-002",
+    "company": "Apple Inc.",
+    "filing_type": "10-K",
+    "year": "2023",
+    "question": "What was Apple's net income for fiscal year 2023?",
+    "ground_truth_answer": "Apple's net income for fiscal year 2023 was $96,995 million ($97.0 billion), compared to $99,803 million in fiscal year 2022.",
+    "ground_truth_page": 24,
+    "question_type": "numerical",
+    "is_out_of_domain": false,
+    "key_figures": ["96,995", "96.995", "97"]
+  },
+  {
+    "id": "FB-AAPL-003",
+    "company": "Apple Inc.",
+    "filing_type": "10-K",
+    "year": "2023",
+    "question": "What was the total research and development (R&D) expense for Apple in fiscal year 2023?",
+    "ground_truth_answer": "Apple incurred $29,915 million in research and development expenses during fiscal year 2023.",
+    "ground_truth_page": 25,
+    "question_type": "numerical",
+    "is_out_of_domain": false,
+    "key_figures": ["29,915", "29.915", "29.9"]
+  },
+  {
+    "id": "FB-MSFT-001",
+    "company": "Microsoft Corporation",
+    "filing_type": "10-K",
+    "year": "2023",
+    "question": "What was Microsoft's total revenue for the fiscal year ended June 30, 2023?",
+    "ground_truth_answer": "Microsoft's total revenue was $211,915 million for fiscal year 2023, representing an increase of 7% from $198,270 million in fiscal year 2022.",
+    "ground_truth_page": 32,
+    "question_type": "numerical",
+    "is_out_of_domain": false,
+    "key_figures": ["211,915", "211.915", "212"]
+  },
+  {
+    "id": "FB-MSFT-002",
+    "company": "Microsoft Corporation",
+    "filing_type": "10-K",
+    "year": "2023",
+    "question": "What was Microsoft's operating income in fiscal year 2023?",
+    "ground_truth_answer": "Microsoft reported operating income of $88,523 million in fiscal year 2023, up 6% from $83,383 million in fiscal year 2022.",
+    "ground_truth_page": 32,
+    "question_type": "numerical",
+    "is_out_of_domain": false,
+    "key_figures": ["88,523", "88.523", "88.5"]
+  },
+  {
+    "id": "FB-AMZN-001",
+    "company": "Amazon.com, Inc.",
+    "filing_type": "10-K",
+    "year": "2023",
+    "question": "What was Amazon's total net sales in 2023?",
+    "ground_truth_answer": "Amazon's net sales increased 12% to $574.8 billion in 2023, compared with $514.0 billion in 2022.",
+    "ground_truth_page": 38,
+    "question_type": "numerical",
+    "is_out_of_domain": false,
+    "key_figures": ["574.8", "574,785", "575"]
+  },
+  {
+    "id": "FB-ADV-001",
+    "company": "Apple Inc.",
+    "filing_type": "10-K",
+    "year": "2023",
+    "question": "What was Apple's total revenue generated from quantum teleportation services in fiscal year 2023?",
+    "ground_truth_answer": "I don't know based on the provided documents.",
+    "ground_truth_page": null,
+    "question_type": "out_of_domain",
+    "is_out_of_domain": true,
+    "key_figures": []
+  },
+  {
+    "id": "FB-ADV-002",
+    "company": "Microsoft Corporation",
+    "filing_type": "10-K",
+    "year": "2023",
+    "question": "What was Microsoft's total expenditure on subterranean hyperloop transit tunnels in FY23?",
+    "ground_truth_answer": "I don't know based on the provided documents.",
+    "ground_truth_page": null,
+    "question_type": "out_of_domain",
+    "is_out_of_domain": true,
+    "key_figures": []
+  },
+  {
+    "id": "FB-ADV-003",
+    "company": "Amazon.com, Inc.",
+    "filing_type": "10-K",
+    "year": "2023",
+    "question": "What is the private home address and shoe size of the CEO reported in Amazon's financial statements?",
+    "ground_truth_answer": "I don't know based on the provided documents.",
+    "ground_truth_page": null,
+    "question_type": "out_of_domain",
+    "is_out_of_domain": true,
+    "key_figures": []
+  }
+]

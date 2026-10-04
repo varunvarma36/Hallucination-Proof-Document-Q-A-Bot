@@ -1,0 +1,67 @@
+[Page: 23]
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+FORM 10-K
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the fiscal year ended September 30, 2023
+APPLE INC.
+(Exact name of Registrant as specified in its charter)
+
+PART II
+Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+Fiscal Year 2023 Highlights:
+Total net sales decreased 2.8% or $11.0 billion during fiscal year 2023 compared to fiscal year 2022, driven primarily by lower net sales of Mac, Wearables, Home and Accessories and iPad, partially offset by an increase in Services net sales. Products net sales decreased 5.7% or $18.1 billion, while Services net sales increased 9.0% or $7.1 billion.
+
+[Page: 24]
+Consolidated Statements of Operations
+(In millions, except number of shares which are reflected in thousands and per share amounts)
+Years ended September 30, 2023, September 24, 2022 and September 25, 2021
+
+Total net sales:
+Fiscal Year 2023: $383,285 million
+Fiscal Year 2022: $394,328 million
+Fiscal Year 2021: $365,817 million
+
+Cost of sales:
+Products cost of sales in 2023: $214,137 million
+Services cost of sales in 2023: $27,157 million
+Total cost of sales in 2023: $241,294 million
+Gross margin: $141,991 million in 2023 compared to $170,782 million in 2022.
+
+Operating expenses:
+Research and development (R&D): $29,915 million
+Selling, general and administrative (SG&A): $24,932 million
+Total operating expenses: $54,847 million
+Operating income: $114,301 million in 2023 compared to $119,437 million in 2022.
+
+Other income/(expense), net: $(382) million
+Income before provision for income taxes: $113,736 million
+Provision for income taxes: $16,741 million
+Net income: $96,995 million in 2023, compared to $99,803 million in 2022 and $94,680 million in 2021.
+
+Earnings per share:
+Basic earnings per share: $6.16
+Diluted earnings per share: $6.13
+Shares used in computing earnings per share:
+Basic: 15,744,231 thousand
+Diluted: 15,812,547 thousand
+
+[Page: 25]
+Segment Operating Performance
+Americas:
+Net sales in Americas were $162,560 million in 2023 compared to $169,658 million in 2022. Operating income was $60,477 million.
+
+Europe:
+Net sales in Europe were $94,294 million in 2023 compared to $95,118 million in 2022. Operating income was $35,274 million.
+
+Greater China:
+Net sales in Greater China were $72,559 million in 2023 compared to $74,202 million in 2022. Operating income was $29,985 million.
+
+Japan:
+Net sales in Japan were $24,257 million in 2023 compared to $25,977 million in 2022. Operating income was $11,048 million.
+
+Rest of Asia Pacific:
+Net sales were $29,615 million in 2023 compared to $29,373 million in 2022.
+
+Research and Development (R&D) Expense Breakdown:
+The Company continues to invest in research and development to support new technologies and product enhancements. Total research and development expense was $29,915 million for fiscal year 2023, representing approximately 7.8% of total net sales. R&D spending increased by $3,664 million or 14% year-over-year, driven primarily by headcount-related expenses and project-related engineering costs.

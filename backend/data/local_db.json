@@ -1,0 +1,1670 @@
+{
+  "collections": [
+    {
+      "id": "50439a07-50cd-4a4d-aaa3-b5bab4f920e1",
+      "name": "Empty Test Collection",
+      "description": "No documents",
+      "created_at": "2026-10-04T04:39:32.679794+00:00",
+      "updated_at": "2026-10-04T04:39:32.679794+00:00"
+    },
+    {
+      "id": "72192c62-ec62-48b9-9386-b427861673dc",
+      "name": "Financials Only",
+      "description": "Standard financial statements",
+      "created_at": "2026-10-04T04:39:32.722973+00:00",
+      "updated_at": "2026-10-04T04:39:32.722973+00:00"
+    },
+    {
+      "id": "6830b7a9-f335-45eb-a0f2-1ea4a3471040",
+      "name": "Test DB Col",
+      "description": "Testing DB CRUD operations",
+      "created_at": "2026-10-04T04:39:33.188478+00:00",
+      "updated_at": "2026-10-04T04:39:33.188478+00:00"
+    },
+    {
+      "id": "65ea0d93-3892-4459-bad7-be1c4c8e5c7e",
+      "name": "Doc Collection",
+      "description": "Testing documents",
+      "created_at": "2026-10-04T04:39:33.192256+00:00",
+      "updated_at": "2026-10-04T04:39:33.192256+00:00"
+    },
+    {
+      "id": "953a8b15-17d8-4b92-88ac-e4a15b7cde33",
+      "name": "Test Ingestion Collection",
+      "description": "Testing ingestion",
+      "created_at": "2026-10-04T04:39:33.226488+00:00",
+      "updated_at": "2026-10-04T04:39:33.226488+00:00"
+    },
+    {
+      "id": "dd38166a-c981-4d41-abf5-78b8180801d5",
+      "name": "Collection Alpha",
+      "description": "Test A",
+      "created_at": "2026-10-04T04:39:33.277631+00:00",
+      "updated_at": "2026-10-04T04:39:33.277631+00:00"
+    },
+    {
+      "id": "338b0bf1-a03b-4c1f-a822-304344063633",
+      "name": "Collection Beta",
+      "description": "Test B",
+      "created_at": "2026-10-04T04:39:33.280513+00:00",
+      "updated_at": "2026-10-04T04:39:33.280513+00:00"
+    },
+    {
+      "id": "e4e8ae24-3734-4619-b938-6e449548bec9",
+      "name": "FinanceBench SEC Filings",
+      "description": "Curated SEC 10-K filings (Apple, Microsoft, Amazon) from the PatronusAI FinanceBench dataset.",
+      "created_at": "2026-10-04T04:45:52.977683+00:00",
+      "updated_at": "2026-10-04T04:45:52.977683+00:00"
+    }
+  ],
+  "documents": [
+    {
+      "id": "ec23bf77-6013-4986-b07a-07390aa2de33",
+      "collection_id": "72192c62-ec62-48b9-9386-b427861673dc",
+      "title": "Apple Sales Document",
+      "filename": "apple_sales.txt",
+      "file_type": "txt",
+      "file_size": 67,
+      "storage_path": "72192c62-ec62-48b9-9386-b427861673dc/fa114671-318c-4681-980e-126c09f69cbd.txt",
+      "storage_bucket": "documents",
+      "page_count": 1,
+      "chunk_count": 0,
+      "status": "processing",
+      "metadata": {
+        "storage_backend": "local",
+        "parsed_pages": 1
+      },
+      "created_at": "2026-10-04T04:39:32.729692+00:00",
+      "updated_at": "2026-10-04T04:39:32.729692+00:00"
+    },
+    {
+      "collection_id": "65ea0d93-3892-4459-bad7-be1c4c8e5c7e",
+      "title": "Quarterly Report",
+      "filename": "q_report.txt",
+      "file_type": "txt",
+      "file_size": 1024,
+      "storage_path": "test/q_report.txt",
+      "page_count": 2,
+      "chunk_count": 4,
+      "status": "indexed",
+      "id": "4c3b44eb-e973-431b-88e2-753b13a7db33",
+      "created_at": "2026-10-04T04:39:33.193993+00:00",
+      "updated_at": "2026-10-04T04:39:33.193993+00:00"
+    },
+    {
+      "id": "a37389b4-9eba-4ae6-afee-e9dec01b3d3c",
+      "collection_id": "953a8b15-17d8-4b92-88ac-e4a15b7cde33",
+      "title": "Test Corporation FY24",
+      "filename": "test_corp.txt",
+      "file_type": "txt",
+      "file_size": 81,
+      "storage_path": "953a8b15-17d8-4b92-88ac-e4a15b7cde33/a07f6abe-0398-4966-b7b4-8905199f6989.txt",
+      "storage_bucket": "documents",
+      "page_count": 1,
+      "chunk_count": 0,
+      "status": "processing",
+      "metadata": {
+        "storage_backend": "local",
+        "parsed_pages": 1
+      },
+      "created_at": "2026-10-04T04:39:33.236456+00:00",
+      "updated_at": "2026-10-04T04:39:33.236456+00:00"
+    },
+    {
+      "id": "2cae0e74-0058-4661-b13d-8ee55a4027ef",
+      "collection_id": "72192c62-ec62-48b9-9386-b427861673dc",
+      "title": "Apple Sales Document",
+      "filename": "apple_sales.txt",
+      "file_type": "txt",
+      "file_size": 67,
+      "storage_path": "72192c62-ec62-48b9-9386-b427861673dc/78253f99-517d-423a-a794-28e8f8fd68f6.txt",
+      "storage_bucket": "documents",
+      "page_count": 1,
+      "chunk_count": 0,
+      "status": "processing",
+      "metadata": {
+        "storage_backend": "local",
+        "parsed_pages": 1
+      },
+      "created_at": "2026-10-04T04:40:08.969887+00:00",
+      "updated_at": "2026-10-04T04:40:08.969887+00:00"
+    },
+    {
+      "collection_id": "65ea0d93-3892-4459-bad7-be1c4c8e5c7e",
+      "title": "Quarterly Report",
+      "filename": "q_report.txt",
+      "file_type": "txt",
+      "file_size": 1024,
+      "storage_path": "test/q_report.txt",
+      "page_count": 2,
+      "chunk_count": 4,
+      "status": "indexed",
+      "id": "84cfbb03-0c72-4d1a-804e-2b7b6d1f1ac4",
+      "created_at": "2026-10-04T04:40:09.159587+00:00",
+      "updated_at": "2026-10-04T04:40:09.159587+00:00"
+    },
+    {
+      "id": "93f1fa0d-b3ca-4516-bf48-82f3eb057a67",
+      "collection_id": "953a8b15-17d8-4b92-88ac-e4a15b7cde33",
+      "title": "Test Corporation FY24",
+      "filename": "test_corp.txt",
+      "file_type": "txt",
+      "file_size": 81,
+      "storage_path": "953a8b15-17d8-4b92-88ac-e4a15b7cde33/52fbb1e8-f602-4a4d-8620-8e4e692f8221.txt",
+      "storage_bucket": "documents",
+      "page_count": 1,
+      "chunk_count": 0,
+      "status": "processing",
+      "metadata": {
+        "storage_backend": "local",
+        "parsed_pages": 1
+      },
+      "created_at": "2026-10-04T04:40:09.194293+00:00",
+      "updated_at": "2026-10-04T04:40:09.194293+00:00"
+    },
+    {
+      "id": "dfc099c2-f451-46dc-97c1-b3388f120e94",
+      "collection_id": "e4e8ae24-3734-4619-b938-6e449548bec9",
+      "title": "Amazon 2023 10K",
+      "filename": "Amazon_2023_10K_Excerpt.txt",
+      "file_type": "txt",
+      "file_size": 1618,
+      "storage_path": "e4e8ae24-3734-4619-b938-6e449548bec9/d2e7c8b3-acdd-465c-b125-4e14ada79257.txt",
+      "storage_bucket": "documents",
+      "page_count": 2,
+      "chunk_count": 0,
+      "status": "processing",
+      "metadata": {
+        "storage_backend": "local",
+        "parsed_pages": 2
+      },
+      "created_at": "2026-10-04T04:45:52.984673+00:00",
+      "updated_at": "2026-10-04T04:45:52.984673+00:00"
+    },
+    {
+      "id": "acc26b09-8b8d-45b8-90ea-e347dcc353f7",
+      "collection_id": "e4e8ae24-3734-4619-b938-6e449548bec9",
+      "title": "Apple 2023 10K",
+      "filename": "Apple_2023_10K_Excerpt.txt",
+      "file_type": "txt",
+      "file_size": 3180,
+      "storage_path": "e4e8ae24-3734-4619-b938-6e449548bec9/2881b798-2f6b-4bef-9270-d0259d6649f3.txt",
+      "storage_bucket": "documents",
+      "page_count": 3,
+      "chunk_count": 0,
+      "status": "processing",
+      "metadata": {
+        "storage_backend": "local",
+        "parsed_pages": 3
+      },
+      "created_at": "2026-10-04T04:45:53.162518+00:00",
+      "updated_at": "2026-10-04T04:45:53.162518+00:00"
+    },
+    {
+      "id": "e7a07781-40c1-4d84-bc60-b3c78d52d4a5",
+      "collection_id": "e4e8ae24-3734-4619-b938-6e449548bec9",
+      "title": "Microsoft 2023 10K",
+      "filename": "Microsoft_2023_10K_Excerpt.txt",
+      "file_type": "txt",
+      "file_size": 1903,
+      "storage_path": "e4e8ae24-3734-4619-b938-6e449548bec9/2796da5d-7460-4703-b052-645799f88e89.txt",
+      "storage_bucket": "documents",
+      "page_count": 2,
+      "chunk_count": 0,
+      "status": "processing",
+      "metadata": {
+        "storage_backend": "local",
+        "parsed_pages": 2
+      },
+      "created_at": "2026-10-04T04:45:53.627937+00:00",
+      "updated_at": "2026-10-04T04:45:53.627937+00:00"
+    }
+  ],
+  "pages": [
+    {
+      "id": "68da76f0-23a0-46a1-b792-a4e78f69ae88",
+      "document_id": "ec23bf77-6013-4986-b07a-07390aa2de33",
+      "page_number": 1,
+      "page_text": "1",
+      "char_count": 1,
+      "created_at": "2026-10-04T04:39:32.731016+00:00"
+    },
+    {
+      "document_id": "4c3b44eb-e973-431b-88e2-753b13a7db33",
+      "page_number": 1,
+      "page_text": "Page one content",
+      "char_count": 16,
+      "id": "95c91298-4949-4712-beb1-25e009209392",
+      "created_at": "2026-10-04T04:39:33.195680+00:00"
+    },
+    {
+      "document_id": "4c3b44eb-e973-431b-88e2-753b13a7db33",
+      "page_number": 2,
+      "page_text": "Page two content",
+      "char_count": 16,
+      "id": "7bd1f6ec-0520-4d26-a0be-4a3223b71039",
+      "created_at": "2026-10-04T04:39:33.195680+00:00"
+    },
+    {
+      "id": "f32d0d97-68d7-40db-85c2-8c12a9fca998",
+      "document_id": "a37389b4-9eba-4ae6-afee-e9dec01b3d3c",
+      "page_number": 1,
+      "page_text": "1",
+      "char_count": 1,
+      "created_at": "2026-10-04T04:39:33.239980+00:00"
+    },
+    {
+      "id": "83eb8850-73fc-4094-a2cf-03889946974c",
+      "document_id": "2cae0e74-0058-4661-b13d-8ee55a4027ef",
+      "page_number": 1,
+      "page_text": "Apple Inc. total net sales in 2023 were $383,285 million.",
+      "char_count": 57,
+      "created_at": "2026-10-04T04:40:08.978578+00:00"
+    },
+    {
+      "document_id": "84cfbb03-0c72-4d1a-804e-2b7b6d1f1ac4",
+      "page_number": 1,
+      "page_text": "Page one content",
+      "char_count": 16,
+      "id": "26d8c52d-5545-45a9-8383-c77d0bf931e8",
+      "created_at": "2026-10-04T04:40:09.164392+00:00"
+    },
+    {
+      "document_id": "84cfbb03-0c72-4d1a-804e-2b7b6d1f1ac4",
+      "page_number": 2,
+      "page_text": "Page two content",
+      "char_count": 16,
+      "id": "c736334f-70b6-43e2-9586-a6c7cff5a782",
+      "created_at": "2026-10-04T04:40:09.164392+00:00"
+    },
+    {
+      "id": "370028eb-4268-4670-936d-94d3e4afd258",
+      "document_id": "93f1fa0d-b3ca-4516-bf48-82f3eb057a67",
+      "page_number": 1,
+      "page_text": "Test Corporation financial report for FY2024. Revenue was $500 million.",
+      "char_count": 71,
+      "created_at": "2026-10-04T04:40:09.198168+00:00"
+    },
+    {
+      "id": "9b9a68ef-af56-43f5-b7de-4631e20e395e",
+      "document_id": "dfc099c2-f451-46dc-97c1-b3388f120e94",
+      "page_number": 37,
+      "page_text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM 10-K\nANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the fiscal year ended December 31, 2023\nAMAZON.COM, INC.\n(Exact name of Registrant as specified in its charter)\n\nPART II\nItem 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations\nOverview:\nOur primary source of revenue is the sale of a wide range of products and services to customers. Products and services sold include retail merchandise, cloud computing services through AWS, digital media subscriptions, and advertising services.",
+      "char_count": 640,
+      "created_at": "2026-10-04T04:45:52.986199+00:00"
+    },
+    {
+      "id": "33fe38be-dcfc-4e7a-8a19-86c83175e54f",
+      "document_id": "dfc099c2-f451-46dc-97c1-b3388f120e94",
+      "page_number": 38,
+      "page_text": "Consolidated Statements of Operations\n(In millions, except per share data)\nYear Ended December 31, 2023, 2022, and 2021\n\nNet product sales: $255,887 million\nNet service sales: $318,898 million\nTotal net sales: $574,785 million in 2023 ($574.8 billion), compared with $513,983 million in 2022, representing an increase of 12%.\n\nOperating expenses:\nCost of sales: $304,527 million\nFulfillment: $84,276 million\nTechnology and content: $85,622 million\nSales and marketing: $44,370 million\nGeneral and administrative: $11,811 million\nTotal operating expenses: $537,923 million\n\nOperating income: $36,862 million in 2023, compared with $12,248 million in 2022.\n\nTotal non-operating income/(expense): $(938) million\nIncome before income taxes: $37,800 million\nProvision for income taxes: $7,375 million\nNet income: $30,425 million in 2023, compared with a net loss of $2,722 million in 2022.\n\nBasic earnings per share: $2.95\nDiluted earnings per share: $2.90",
+      "char_count": 951,
+      "created_at": "2026-10-04T04:45:52.986199+00:00"
+    },
+    {
+      "id": "66ede76f-15a1-41bd-b929-bcfe173654ee",
+      "document_id": "acc26b09-8b8d-45b8-90ea-e347dcc353f7",
+      "page_number": 23,
+      "page_text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM 10-K\nANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the fiscal year ended September 30, 2023\nAPPLE INC.\n(Exact name of Registrant as specified in its charter)\n\nPART II\nItem 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations\nFiscal Year 2023 Highlights:\nTotal net sales decreased 2.8% or $11.0 billion during fiscal year 2023 compared to fiscal year 2022, driven primarily by lower net sales of Mac, Wearables, Home and Accessories and iPad, partially offset by an increase in Services net sales. Products net sales decreased 5.7% or $18.1 billion, while Services net sales increased 9.0% or $7.1 billion.",
+      "char_count": 761,
+      "created_at": "2026-10-04T04:45:53.166548+00:00"
+    },
+    {
+      "id": "01d5c058-2916-42ee-ab80-8077259418f6",
+      "document_id": "acc26b09-8b8d-45b8-90ea-e347dcc353f7",
+      "page_number": 24,
+      "page_text": "Consolidated Statements of Operations\n(In millions, except number of shares which are reflected in thousands and per share amounts)\nYears ended September 30, 2023, September 24, 2022 and September 25, 2021\n\nTotal net sales:\nFiscal Year 2023: $383,285 million\nFiscal Year 2022: $394,328 million\nFiscal Year 2021: $365,817 million\n\nCost of sales:\nProducts cost of sales in 2023: $214,137 million\nServices cost of sales in 2023: $27,157 million\nTotal cost of sales in 2023: $241,294 million\nGross margin: $141,991 million in 2023 compared to $170,782 million in 2022.\n\nOperating expenses:\nResearch and development (R&D): $29,915 million\nSelling, general and administrative (SG&A): $24,932 million\nTotal operating expenses: $54,847 million\nOperating income: $114,301 million in 2023 compared to $119,437 million in 2022.\n\nOther income/(expense), net: $(382) million\nIncome before provision for income taxes: $113,736 million\nProvision for income taxes: $16,741 million\nNet income: $96,995 million in 2023, compared to $99,803 million in 2022 and $94,680 million in 2021.\n\nEarnings per share:\nBasic earnings per share: $6.16\nDiluted earnings per share: $6.13\nShares used in computing earnings per share:\nBasic: 15,744,231 thousand\nDiluted: 15,812,547 thousand",
+      "char_count": 1254,
+      "created_at": "2026-10-04T04:45:53.166548+00:00"
+    },
+    {
+      "id": "89859592-e7d8-4746-9b24-b3423ec21a54",
+      "document_id": "acc26b09-8b8d-45b8-90ea-e347dcc353f7",
+      "page_number": 25,
+      "page_text": "Segment Operating Performance\nAmericas:\nNet sales in Americas were $162,560 million in 2023 compared to $169,658 million in 2022. Operating income was $60,477 million.\n\nEurope:\nNet sales in Europe were $94,294 million in 2023 compared to $95,118 million in 2022. Operating income was $35,274 million.\n\nGreater China:\nNet sales in Greater China were $72,559 million in 2023 compared to $74,202 million in 2022. Operating income was $29,985 million.\n\nJapan:\nNet sales in Japan were $24,257 million in 2023 compared to $25,977 million in 2022. Operating income was $11,048 million.\n\nRest of Asia Pacific:\nNet sales were $29,615 million in 2023 compared to $29,373 million in 2022.\n\nResearch and Development (R&D) Expense Breakdown:\nThe Company continues to invest in research and development to support new technologies and product enhancements. Total research and development expense was $29,915 million for fiscal year 2023, representing approximately 7.8% of total net sales. R&D spending increased by $3,664 million or 14% year-over-year, driven primarily by headcount-related expenses and project-related engineering costs.",
+      "char_count": 1125,
+      "created_at": "2026-10-04T04:45:53.166548+00:00"
+    },
+    {
+      "id": "0245ba62-7bcb-438c-a3b1-737d89eb26b2",
+      "document_id": "e7a07781-40c1-4d84-bc60-b3c78d52d4a5",
+      "page_number": 31,
+      "page_text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM 10-K\nANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the fiscal year ended June 30, 2023\nMICROSOFT CORPORATION\n(Exact name of Registrant as specified in its charter)\n\nBUSINESS OVERVIEW\nMicrosoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more. We strive to create local opportunity, growth, and impact in every country around the world. We generate revenue by offering a wide range of cloud-based solutions, software licenses, devices, and support services.",
+      "char_count": 645,
+      "created_at": "2026-10-04T04:45:53.632864+00:00"
+    },
+    {
+      "id": "3d84e952-0037-43f1-8d80-fadf3a29b884",
+      "document_id": "e7a07781-40c1-4d84-bc60-b3c78d52d4a5",
+      "page_number": 32,
+      "page_text": "INCOME STATEMENTS\n(In millions, except per share amounts)\nYear Ended June 30, 2023, 2022, and 2021\n\nRevenue:\nProduct revenue: $64,699 million\nService and other revenue: $147,216 million\nTotal revenue: $211,915 million in fiscal year 2023, compared to $198,270 million in fiscal year 2022 and $168,088 million in 2021.\nTotal revenue increased $13,645 million or 7% year-over-year.\n\nCost of revenue:\nProduct cost of revenue: $18,219 million\nService and other cost of revenue: $47,644 million\nTotal cost of revenue: $65,863 million\nGross margin: $146,052 million in 2023 compared to $135,620 million in 2022.\n\nResearch and development expense: $27,195 million\nSales and marketing expense: $22,759 million\nGeneral and administrative expense: $7,575 million\nTotal operating expenses: $57,529 million\n\nOperating income:\nTotal operating income was $88,523 million in fiscal year 2023, compared to $83,383 million in fiscal year 2022, representing an increase of 6%.\n\nOther income/(expense), net: $788 million\nIncome before income taxes: $89,311 million\nProvision for income taxes: $16,950 million\nNet income: $72,361 million in 2023, compared to $72,738 million in 2022.\n\nDiluted earnings per share: $9.68 in 2023 compared to $9.65 in 2022.",
+      "char_count": 1233,
+      "created_at": "2026-10-04T04:45:53.632864+00:00"
+    }
+  ],
+  "chunks": [],
+  "chat_sessions": [
+    {
+      "id": "30650b5f-35b3-4932-9b98-0455655187a5",
+      "title": "What was the net profit margin of extrat...",
+      "collection_id": "50439a07-50cd-4a4d-aaa3-b5bab4f920e1",
+      "created_at": "2026-10-04T04:39:32.715632+00:00",
+      "updated_at": "2026-10-04T04:39:32.715632+00:00"
+    },
+    {
+      "id": "b11f39f8-20f1-49c6-a06c-50ab5af47222",
+      "title": "What is the average wingspan of a peregr...",
+      "collection_id": "72192c62-ec62-48b9-9386-b427861673dc",
+      "created_at": "2026-10-04T04:39:32.753471+00:00",
+      "updated_at": "2026-10-04T04:39:32.753471+00:00"
+    },
+    {
+      "id": "5516d21b-8b09-428e-b169-fb7aaaa28e0c",
+      "title": "Test Session",
+      "collection_id": null,
+      "created_at": "2026-10-04T04:39:33.198986+00:00",
+      "updated_at": "2026-10-04T04:39:33.198986+00:00"
+    },
+    {
+      "id": "184ecf39-bc7c-40f2-8b90-e3d2adc0102e",
+      "title": "What was the net profit margin of extrat...",
+      "collection_id": "50439a07-50cd-4a4d-aaa3-b5bab4f920e1",
+      "created_at": "2026-10-04T04:40:08.951861+00:00",
+      "updated_at": "2026-10-04T04:40:08.951861+00:00"
+    },
+    {
+      "id": "6334c1e2-347a-457a-8047-b38b0ad66459",
+      "title": "What is the average wingspan of a peregr...",
+      "collection_id": "72192c62-ec62-48b9-9386-b427861673dc",
+      "created_at": "2026-10-04T04:40:09.032303+00:00",
+      "updated_at": "2026-10-04T04:40:09.032303+00:00"
+    },
+    {
+      "id": "52348d5e-c066-4cbc-a72e-90f1f963e6ae",
+      "title": "Test Session",
+      "collection_id": null,
+      "created_at": "2026-10-04T04:40:09.173956+00:00",
+      "updated_at": "2026-10-04T04:40:09.173956+00:00"
+    },
+    {
+      "id": "d3d6564c-4762-4142-aedc-9ddac4b5259b",
+      "title": "What was Apple total net sales for fisca...",
+      "collection_id": null,
+      "created_at": "2026-10-04T04:47:10.586576+00:00",
+      "updated_at": "2026-10-04T04:47:10.586576+00:00"
+    },
+    {
+      "id": "8a8ab162-4fa8-42ab-845d-1b2c127f9b10",
+      "title": "What was Apple total revenue from quantu...",
+      "collection_id": null,
+      "created_at": "2026-10-04T04:47:25.916781+00:00",
+      "updated_at": "2026-10-04T04:47:25.916781+00:00"
+    },
+    {
+      "id": "67bbdb4a-5f4b-4385-9b22-a79d9966a1b2",
+      "title": "What was Apple total net sales for fisca...",
+      "collection_id": null,
+      "created_at": "2026-10-04T04:48:15.274268+00:00",
+      "updated_at": "2026-10-04T04:48:15.274268+00:00"
+    },
+    {
+      "id": "d0a65e43-d962-4bae-9cbb-242a7526698a",
+      "title": "What was Apple total revenue from quantu...",
+      "collection_id": null,
+      "created_at": "2026-10-04T04:48:15.478454+00:00",
+      "updated_at": "2026-10-04T04:48:15.478454+00:00"
+    },
+    {
+      "id": "19dfe26a-e8c0-420e-a3e2-cfd7650d99e1",
+      "title": "What was Apple's total net sales for the...",
+      "collection_id": "e4e8ae24-3734-4619-b938-6e449548bec9",
+      "created_at": "2026-10-04T04:48:15.636709+00:00",
+      "updated_at": "2026-10-04T04:48:15.636709+00:00"
+    },
+    {
+      "id": "fc91f727-6bf9-4e19-ae82-8d451d83e601",
+      "title": "What was Apple's net income for fiscal y...",
+      "collection_id": "e4e8ae24-3734-4619-b938-6e449548bec9",
+      "created_at": "2026-10-04T04:48:15.884962+00:00",
+      "updated_at": "2026-10-04T04:48:15.884962+00:00"
+    },
+    {
+      "id": "494a89a0-6e5f-429a-960a-d48120046a5f",
+      "title": "What was the total research and developm...",
+      "collection_id": "e4e8ae24-3734-4619-b938-6e449548bec9",
+      "created_at": "2026-10-04T04:48:16.245286+00:00",
+      "updated_at": "2026-10-04T04:48:16.245286+00:00"
+    },
+    {
+      "id": "f3e09ff4-6628-4a1a-bf27-f668c511d3e7",
+      "title": "What was Microsoft's total revenue for t...",
+      "collection_id": "e4e8ae24-3734-4619-b938-6e449548bec9",
+      "created_at": "2026-10-04T04:48:16.913704+00:00",
+      "updated_at": "2026-10-04T04:48:16.914767+00:00"
+    },
+    {
+      "id": "ad30e7e9-8d77-473f-91ff-25d7a459ee87",
+      "title": "What was Microsoft's operating income in...",
+      "collection_id": "e4e8ae24-3734-4619-b938-6e449548bec9",
+      "created_at": "2026-10-04T04:48:17.326636+00:00",
+      "updated_at": "2026-10-04T04:48:17.326636+00:00"
+    },
+    {
+      "id": "48576701-1f13-4af4-b522-223eee1309e5",
+      "title": "What was Amazon's total net sales in 202...",
+      "collection_id": "e4e8ae24-3734-4619-b938-6e449548bec9",
+      "created_at": "2026-10-04T04:48:17.586648+00:00",
+      "updated_at": "2026-10-04T04:48:17.586648+00:00"
+    },
+    {
+      "id": "5f64b2db-cf61-4640-bdc5-a7efbbca3bc5",
+      "title": "What was Apple's total revenue generated...",
+      "collection_id": "e4e8ae24-3734-4619-b938-6e449548bec9",
+      "created_at": "2026-10-04T04:48:17.901414+00:00",
+      "updated_at": "2026-10-04T04:48:17.901414+00:00"
+    },
+    {
+      "id": "8e6cb9d2-c48a-4ead-b989-b8fc1f9114f2",
+      "title": "What was Microsoft's total expenditure o...",
+      "collection_id": "e4e8ae24-3734-4619-b938-6e449548bec9",
+      "created_at": "2026-10-04T04:48:18.158529+00:00",
+      "updated_at": "2026-10-04T04:48:18.158529+00:00"
+    },
+    {
+      "id": "d76a586b-d92e-46ca-9fcf-60750b6d121e",
+      "title": "What is the private home address and sho...",
+      "collection_id": "e4e8ae24-3734-4619-b938-6e449548bec9",
+      "created_at": "2026-10-04T04:48:18.538443+00:00",
+      "updated_at": "2026-10-04T04:48:18.538443+00:00"
+    },
+    {
+      "id": "70bc1e2a-5c22-4409-bbca-2e14f62c0089",
+      "title": "What was the company's revenue in the re...",
+      "collection_id": null,
+      "created_at": "2026-10-04T05:24:05.130706+00:00",
+      "updated_at": "2026-10-04T05:24:05.130706+00:00"
+    },
+    {
+      "id": "f4bc1b1e-9c59-499c-a237-62b6432f970f",
+      "title": "what is the entire documantion is about...",
+      "collection_id": null,
+      "created_at": "2026-10-04T05:24:39.245051+00:00",
+      "updated_at": "2026-10-04T05:24:39.246080+00:00"
+    },
+    {
+      "id": "e428b9bb-e9e4-466d-9f5b-950830f98dd3",
+      "title": "What was Apple's total net sales for fis...",
+      "collection_id": null,
+      "created_at": "2026-10-04T05:42:35.926823+00:00",
+      "updated_at": "2026-10-04T05:42:35.927825+00:00"
+    },
+    {
+      "id": "54e3cdbf-5afb-48e1-99fb-99aa82c86eb0",
+      "title": "give me company owner number...",
+      "collection_id": null,
+      "created_at": "2026-10-04T05:42:59.231041+00:00",
+      "updated_at": "2026-10-04T05:42:59.231041+00:00"
+    },
+    {
+      "id": "8c05335f-1d46-4c87-a126-9f0af2b7d03c",
+      "title": "how to prepare a coffe...",
+      "collection_id": null,
+      "created_at": "2026-10-04T05:43:14.171173+00:00",
+      "updated_at": "2026-10-04T05:43:14.171173+00:00"
+    },
+    {
+      "id": "053c5bd9-d3ce-4e89-9043-3b1268a6b383",
+      "title": "what is the documantiono is all about...",
+      "collection_id": null,
+      "created_at": "2026-10-04T05:43:30.391005+00:00",
+      "updated_at": "2026-10-04T05:43:30.391005+00:00"
+    },
+    {
+      "id": "f289986e-d3e3-4fbc-8412-043e94015187",
+      "title": "what kind of documents do you have...",
+      "collection_id": null,
+      "created_at": "2026-10-04T05:44:09.891663+00:00",
+      "updated_at": "2026-10-04T05:44:09.891663+00:00"
+    },
+    {
+      "id": "35308780-0f4c-4c5c-b09a-73192c8de009",
+      "title": "What was Apple's total net sales for fis...",
+      "collection_id": null,
+      "created_at": "2026-10-04T05:45:48.941385+00:00",
+      "updated_at": "2026-10-04T05:45:48.942384+00:00"
+    },
+    {
+      "id": "99fb1f9f-44f6-4b18-a6b3-25318a71b32c",
+      "title": "What was Microsoft's operating income in...",
+      "collection_id": null,
+      "created_at": "2026-10-04T05:47:49.939331+00:00",
+      "updated_at": "2026-10-04T05:47:49.940331+00:00"
+    },
+    {
+      "id": "8081e651-834d-4b83-9b98-db18964c1a82",
+      "title": "What was Microsoft's operating income in...",
+      "collection_id": null,
+      "created_at": "2026-10-04T06:00:06.384480+00:00",
+      "updated_at": "2026-10-04T06:00:06.385490+00:00"
+    },
+    {
+      "id": "3797e98b-f5d4-4c84-8fa0-5a80e5bdf275",
+      "title": "What was Microsoft's operating income in...",
+      "collection_id": null,
+      "created_at": "2026-10-04T06:05:27.476405+00:00",
+      "updated_at": "2026-10-04T06:05:27.476405+00:00"
+    },
+    {
+      "id": "bc9cac6f-7713-43a4-a7bd-1129c9a552d3",
+      "title": "What was Microsoft's operating income in...",
+      "collection_id": null,
+      "created_at": "2026-10-04T06:09:35.020061+00:00",
+      "updated_at": "2026-10-04T06:09:35.020061+00:00"
+    },
+    {
+      "id": "8d2e086b-9bd1-439d-b3d9-9c2bf1cc9f4d",
+      "title": "how to prepare a copy ?...",
+      "collection_id": null,
+      "created_at": "2026-10-04T06:09:49.863751+00:00",
+      "updated_at": "2026-10-04T06:09:49.863751+00:00"
+    },
+    {
+      "id": "56097747-a776-4c39-83aa-5763e79897da",
+      "title": "what is the document is all about...",
+      "collection_id": null,
+      "created_at": "2026-10-04T06:10:03.095590+00:00",
+      "updated_at": "2026-10-04T06:10:03.095590+00:00"
+    },
+    {
+      "id": "92479cf9-41a5-49e2-8ce4-7a45cbf15208",
+      "title": "What were Apple's R&D expenses in 2023?...",
+      "collection_id": null,
+      "created_at": "2026-10-04T06:11:15.456579+00:00",
+      "updated_at": "2026-10-04T06:11:15.456579+00:00"
+    },
+    {
+      "id": "bcadbf6f-648f-46a6-b721-184b17543395",
+      "title": "What was Apple's revenue from quantum te...",
+      "collection_id": null,
+      "created_at": "2026-10-04T06:11:27.490586+00:00",
+      "updated_at": "2026-10-04T06:11:27.490586+00:00"
+    }
+  ],
+  "messages": [
+    {
+      "session_id": "30650b5f-35b3-4932-9b98-0455655187a5",
+      "role": "user",
+      "content": "What was the net profit margin of extraterrestrial colonies?",
+      "id": "dd9d0608-870e-4ae7-be18-c6feb23dbd4a",
+      "created_at": "2026-10-04T04:39:32.717640+00:00"
+    },
+    {
+      "session_id": "30650b5f-35b3-4932-9b98-0455655187a5",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "8990bd33-316c-46cd-af4a-1bcdf13b43c4",
+      "created_at": "2026-10-04T04:39:32.719634+00:00"
+    },
+    {
+      "session_id": "b11f39f8-20f1-49c6-a06c-50ab5af47222",
+      "role": "user",
+      "content": "What is the average wingspan of a peregrine falcon in Antarctica?",
+      "id": "1ebaf771-1094-4a07-aee5-c68cfb312b15",
+      "created_at": "2026-10-04T04:39:32.754481+00:00"
+    },
+    {
+      "session_id": "b11f39f8-20f1-49c6-a06c-50ab5af47222",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "2d5333eb-be3e-4f2b-952b-557b7a8bb440",
+      "created_at": "2026-10-04T04:39:32.755485+00:00"
+    },
+    {
+      "session_id": "5516d21b-8b09-428e-b169-fb7aaaa28e0c",
+      "role": "user",
+      "content": "What is the revenue?",
+      "id": "c63f3c35-d486-4a9b-961a-7f4e8f793bad",
+      "created_at": "2026-10-04T04:39:33.201233+00:00"
+    },
+    {
+      "session_id": "184ecf39-bc7c-40f2-8b90-e3d2adc0102e",
+      "role": "user",
+      "content": "What was the net profit margin of extraterrestrial colonies?",
+      "id": "a039d997-252a-4168-b6fd-a96f7d1445ca",
+      "created_at": "2026-10-04T04:40:08.955901+00:00"
+    },
+    {
+      "session_id": "184ecf39-bc7c-40f2-8b90-e3d2adc0102e",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "2178ab89-6097-4492-8d36-7188c37018be",
+      "created_at": "2026-10-04T04:40:08.958909+00:00"
+    },
+    {
+      "session_id": "6334c1e2-347a-457a-8047-b38b0ad66459",
+      "role": "user",
+      "content": "What is the average wingspan of a peregrine falcon in Antarctica?",
+      "id": "e0d91cc0-72e2-471e-a54e-b603182598b4",
+      "created_at": "2026-10-04T04:40:09.040326+00:00"
+    },
+    {
+      "session_id": "6334c1e2-347a-457a-8047-b38b0ad66459",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "43543ea6-b45f-4ae4-8c9f-a2c097e0d91f",
+      "created_at": "2026-10-04T04:40:09.042840+00:00"
+    },
+    {
+      "session_id": "52348d5e-c066-4cbc-a72e-90f1f963e6ae",
+      "role": "user",
+      "content": "What is the revenue?",
+      "id": "1c87fa42-038b-4093-a0a9-80e683031e05",
+      "created_at": "2026-10-04T04:40:09.177301+00:00"
+    },
+    {
+      "session_id": "d3d6564c-4762-4142-aedc-9ddac4b5259b",
+      "role": "user",
+      "content": "What was Apple total net sales for fiscal year 2023?",
+      "id": "484d44c6-0858-4521-b281-2383a759d8cb",
+      "created_at": "2026-10-04T04:47:10.587630+00:00"
+    },
+    {
+      "session_id": "d3d6564c-4762-4142-aedc-9ddac4b5259b",
+      "role": "assistant",
+      "content": "Based on the records in Apple 2023 10K: Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations\nFiscal Year 2023 Highlights:\nTotal net sales decreased 2.8% or $11.0 billion during fiscal year 2023 compared to fiscal year 2022, driven primarily by lower net sales of Mac, Wearables, Home and Accessories and iPad, partially offset by an increase in Services net sales.",
+      "supported": true,
+      "confidence": 0.95,
+      "verification_status": "verified_grounded",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.944,
+        "grounding_verdict": "VERIFIED_GROUNDED",
+        "unsupported_reason": null
+      },
+      "citations": [
+        {
+          "document": "Apple 2023 10K",
+          "page": 23,
+          "chunk": "Chunk 1",
+          "exact_quote": "Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations\nFiscal Year 2023 Highlights:\nTotal net sales decreased 2.8% or $11.0 billion during fiscal year 2023 compared to fiscal year 2022, driven primarily by lower net sales of Mac, Wearables, Home and Accessories and iPad, partially offset by an increase in Services net sales.",
+          "similarity_score": 0.8344
+        }
+      ],
+      "id": "35ab2ffb-d3a9-4c7b-8e48-764814a8b739",
+      "created_at": "2026-10-04T04:47:10.590148+00:00"
+    },
+    {
+      "session_id": "8a8ab162-4fa8-42ab-845d-1b2c127f9b10",
+      "role": "user",
+      "content": "What was Apple total revenue from quantum teleportation services in fiscal year 2023?",
+      "id": "43f19cbb-86f0-4f8c-a363-f8b4c8ddcc27",
+      "created_at": "2026-10-04T04:47:25.920792+00:00"
+    },
+    {
+      "session_id": "8a8ab162-4fa8-42ab-845d-1b2c127f9b10",
+      "role": "assistant",
+      "content": "Based on the records in Apple 2023 10K: Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations\nFiscal Year 2023 Highlights:\nTotal net sales decreased 2.8% or $11.0 billion during fiscal year 2023 compared to fiscal year 2022, driven primarily by lower net sales of Mac, Wearables, Home and Accessories and iPad, partially offset by an increase in Services net sales.",
+      "supported": true,
+      "confidence": 0.95,
+      "verification_status": "verified_grounded",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.944,
+        "grounding_verdict": "VERIFIED_GROUNDED",
+        "unsupported_reason": null
+      },
+      "citations": [
+        {
+          "document": "Apple 2023 10K",
+          "page": 23,
+          "chunk": "Chunk 1",
+          "exact_quote": "Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations\nFiscal Year 2023 Highlights:\nTotal net sales decreased 2.8% or $11.0 billion during fiscal year 2023 compared to fiscal year 2022, driven primarily by lower net sales of Mac, Wearables, Home and Accessories and iPad, partially offset by an increase in Services net sales.",
+          "similarity_score": 0.7258
+        }
+      ],
+      "id": "7b1bceee-a3e0-421e-9ac2-141572628715",
+      "created_at": "2026-10-04T04:47:25.923315+00:00"
+    },
+    {
+      "session_id": "67bbdb4a-5f4b-4385-9b22-a79d9966a1b2",
+      "role": "user",
+      "content": "What was Apple total net sales for fiscal year 2023?",
+      "id": "71c3d760-e576-4623-8c18-92924dcf5dd4",
+      "created_at": "2026-10-04T04:48:15.277378+00:00"
+    },
+    {
+      "session_id": "67bbdb4a-5f4b-4385-9b22-a79d9966a1b2",
+      "role": "assistant",
+      "content": "Based on the records in Apple Sales Document: total net sales in 2023 were $383,285 million.",
+      "supported": true,
+      "confidence": 0.85,
+      "verification_status": "verified_grounded",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.667,
+        "grounding_verdict": "VERIFIED_GROUNDED",
+        "unsupported_reason": null
+      },
+      "citations": [
+        {
+          "document": "Apple Sales Document",
+          "page": 1,
+          "chunk": "Chunk 1",
+          "exact_quote": "total net sales in 2023 were $383,285 million.",
+          "similarity_score": 0.8912
+        }
+      ],
+      "id": "c8eedd9b-de1f-4d68-8966-56d84ee17077",
+      "created_at": "2026-10-04T04:48:15.334113+00:00"
+    },
+    {
+      "session_id": "d0a65e43-d962-4bae-9cbb-242a7526698a",
+      "role": "user",
+      "content": "What was Apple total revenue from quantum teleportation services in fiscal year 2023?",
+      "id": "95d1c930-a1b4-4abf-8a80-5e55e9d1c232",
+      "created_at": "2026-10-04T04:48:15.517527+00:00"
+    },
+    {
+      "session_id": "d0a65e43-d962-4bae-9cbb-242a7526698a",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "840c2cee-f6dd-4840-a684-a4af1c9fbd10",
+      "created_at": "2026-10-04T04:48:15.565168+00:00"
+    },
+    {
+      "session_id": "19dfe26a-e8c0-420e-a3e2-cfd7650d99e1",
+      "role": "user",
+      "content": "What was Apple's total net sales for the fiscal year ended September 30, 2023?",
+      "id": "fb36b794-bf96-4487-8aab-732daaef62c2",
+      "created_at": "2026-10-04T04:48:15.772065+00:00"
+    },
+    {
+      "session_id": "19dfe26a-e8c0-420e-a3e2-cfd7650d99e1",
+      "role": "assistant",
+      "content": "Based on the records in Apple 2023 10K: Consolidated Statements of Operations\n(In millions, except number of shares which are reflected in thousands and per share amounts)\nYears ended September 30, 2023, September 24, 2022 and September 25, 2021\n\nTotal net sales:\nFiscal Year 2023: $383,285 million\nFiscal Year 2022: $394,328 million\nFiscal Year 2021: $365,817 million\n\nCost of sales:\nProducts cost of sales in 2023: $214,137 million\nServices cost of sales in 2023: $27,157 million\nTotal cost of sales in 2023: $241,294 million\nGross margin: $141,991 million in 2023 compared to $170,782 million in 2022.",
+      "supported": true,
+      "confidence": 0.8999999999999999,
+      "verification_status": "verified_grounded",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.96,
+        "grounding_verdict": "VERIFIED_GROUNDED",
+        "unsupported_reason": null
+      },
+      "citations": [
+        {
+          "document": "Apple 2023 10K",
+          "page": 24,
+          "chunk": "Chunk 2",
+          "exact_quote": "Consolidated Statements of Operations\n(In millions, except number of shares which are reflected in thousands and per share amounts)\nYears ended September 30, 2023, September 24, 2022 and September 25, 2021\n\nTotal net sales:\nFiscal Year 2023: $383,285 million\nFiscal Year 2022: $394,328 million\nFiscal Year 2021: $365,817 million\n\nCost of sales:\nProducts cost of sales in 2023: $214,137 million\nServices cost of sales in 2023: $27,157 million\nTotal cost of sales in 2023: $241,294 million\nGross margin: $141,991 million in 2023 compared to $170,782 million in 2022.",
+          "similarity_score": 0.7757
+        }
+      ],
+      "id": "ef8c72bd-ce13-4ce5-b951-11b9d099fc4e",
+      "created_at": "2026-10-04T04:48:15.793973+00:00"
+    },
+    {
+      "session_id": "fc91f727-6bf9-4e19-ae82-8d451d83e601",
+      "role": "user",
+      "content": "What was Apple's net income for fiscal year 2023?",
+      "id": "ca5acbda-7cf0-4662-8bb3-f7ceb374c215",
+      "created_at": "2026-10-04T04:48:15.957882+00:00"
+    },
+    {
+      "session_id": "fc91f727-6bf9-4e19-ae82-8d451d83e601",
+      "role": "assistant",
+      "content": "Based on the records in Apple 2023 10K: $16,741 million\nNet income: $96,995 million in 2023, compared to $99,803 million in 2022 and $94,680 million in 2021.",
+      "supported": true,
+      "confidence": 0.7999999999999999,
+      "verification_status": "verified_grounded",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.778,
+        "grounding_verdict": "VERIFIED_GROUNDED",
+        "unsupported_reason": null
+      },
+      "citations": [
+        {
+          "document": "Apple 2023 10K",
+          "page": 24,
+          "chunk": "Chunk 4",
+          "exact_quote": "$16,741 million\nNet income: $96,995 million in 2023, compared to $99,803 million in 2022 and $94,680 million in 2021.",
+          "similarity_score": 0.7213
+        }
+      ],
+      "id": "0d712e78-45e9-4ed6-a6e0-262cacc349e9",
+      "created_at": "2026-10-04T04:48:16.056951+00:00"
+    },
+    {
+      "session_id": "494a89a0-6e5f-429a-960a-d48120046a5f",
+      "role": "user",
+      "content": "What was the total research and development (R&D) expense for Apple in fiscal year 2023?",
+      "id": "d2378d04-8467-4979-a94c-fc1b6847d5ab",
+      "created_at": "2026-10-04T04:48:16.399575+00:00"
+    },
+    {
+      "session_id": "494a89a0-6e5f-429a-960a-d48120046a5f",
+      "role": "assistant",
+      "content": "Based on the records in Apple 2023 10K: Total research and development expense was $29,915 million for fiscal year 2023, representing approximately 7.8% of total net sales.",
+      "supported": true,
+      "confidence": 0.8999999999999999,
+      "verification_status": "verified_grounded",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.857,
+        "grounding_verdict": "VERIFIED_GROUNDED",
+        "unsupported_reason": null
+      },
+      "citations": [
+        {
+          "document": "Apple 2023 10K",
+          "page": 25,
+          "chunk": "Chunk 6",
+          "exact_quote": "Total research and development expense was $29,915 million for fiscal year 2023, representing approximately 7.8% of total net sales.",
+          "similarity_score": 0.7891
+        }
+      ],
+      "id": "dd40cb8c-7b5d-49fb-a9c9-9d3232c37488",
+      "created_at": "2026-10-04T04:48:16.422204+00:00"
+    },
+    {
+      "session_id": "f3e09ff4-6628-4a1a-bf27-f668c511d3e7",
+      "role": "user",
+      "content": "What was Microsoft's total revenue for the fiscal year ended June 30, 2023?",
+      "id": "b3a9e9d6-48c2-4cfe-a37d-2cd12e535d46",
+      "created_at": "2026-10-04T04:48:16.997972+00:00"
+    },
+    {
+      "session_id": "f3e09ff4-6628-4a1a-bf27-f668c511d3e7",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "6bab6feb-4e82-4a93-a7fc-6895398ee462",
+      "created_at": "2026-10-04T04:48:17.112909+00:00"
+    },
+    {
+      "session_id": "ad30e7e9-8d77-473f-91ff-25d7a459ee87",
+      "role": "user",
+      "content": "What was Microsoft's operating income in fiscal year 2023?",
+      "id": "9bf9de92-9ab4-4d09-8af9-4569b7b289c9",
+      "created_at": "2026-10-04T04:48:17.427934+00:00"
+    },
+    {
+      "session_id": "ad30e7e9-8d77-473f-91ff-25d7a459ee87",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "7316665a-8735-4aae-913a-9013ef87556a",
+      "created_at": "2026-10-04T04:48:17.468429+00:00"
+    },
+    {
+      "session_id": "48576701-1f13-4af4-b522-223eee1309e5",
+      "role": "user",
+      "content": "What was Amazon's total net sales in 2023?",
+      "id": "20e61b01-223c-44a4-9b50-bb611ac3a18b",
+      "created_at": "2026-10-04T04:48:17.663744+00:00"
+    },
+    {
+      "session_id": "48576701-1f13-4af4-b522-223eee1309e5",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "79034eaf-c83a-49a9-906a-45148f77a0ff",
+      "created_at": "2026-10-04T04:48:17.750903+00:00"
+    },
+    {
+      "session_id": "5f64b2db-cf61-4640-bdc5-a7efbbca3bc5",
+      "role": "user",
+      "content": "What was Apple's total revenue generated from quantum teleportation services in fiscal year 2023?",
+      "id": "78f49a70-5f92-47ad-9b1c-9a0d49390351",
+      "created_at": "2026-10-04T04:48:17.960678+00:00"
+    },
+    {
+      "session_id": "5f64b2db-cf61-4640-bdc5-a7efbbca3bc5",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "340bd42a-914a-4c98-b83a-b06b0a2a386c",
+      "created_at": "2026-10-04T04:48:18.056559+00:00"
+    },
+    {
+      "session_id": "8e6cb9d2-c48a-4ead-b989-b8fc1f9114f2",
+      "role": "user",
+      "content": "What was Microsoft's total expenditure on subterranean hyperloop transit tunnels in FY23?",
+      "id": "17c082dd-16a9-4217-b2ac-63e6ef12a39d",
+      "created_at": "2026-10-04T04:48:18.369010+00:00"
+    },
+    {
+      "session_id": "8e6cb9d2-c48a-4ead-b989-b8fc1f9114f2",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "5b8287e6-59a3-4609-a0b7-fb40e54221e3",
+      "created_at": "2026-10-04T04:48:18.448266+00:00"
+    },
+    {
+      "session_id": "d76a586b-d92e-46ca-9fcf-60750b6d121e",
+      "role": "user",
+      "content": "What is the private home address and shoe size of the CEO reported in Amazon's financial statements?",
+      "id": "c9d91db3-c9df-4cca-bdcf-ffd8ad716241",
+      "created_at": "2026-10-04T04:48:18.580513+00:00"
+    },
+    {
+      "session_id": "d76a586b-d92e-46ca-9fcf-60750b6d121e",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "90b6a49b-3872-4fe0-afb6-eb91782e5c3b",
+      "created_at": "2026-10-04T04:48:18.693155+00:00"
+    },
+    {
+      "session_id": "70bc1e2a-5c22-4409-bbca-2e14f62c0089",
+      "role": "user",
+      "content": "What was the company's revenue in the reported year?",
+      "id": "94f99203-d2e8-4809-93db-a344ddbb1673",
+      "created_at": "2026-10-04T05:24:05.271382+00:00"
+    },
+    {
+      "session_id": "70bc1e2a-5c22-4409-bbca-2e14f62c0089",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "992cd973-5d89-4661-ab72-5d2fb578e57f",
+      "created_at": "2026-10-04T05:24:05.315222+00:00"
+    },
+    {
+      "session_id": "f4bc1b1e-9c59-499c-a237-62b6432f970f",
+      "role": "user",
+      "content": "what is the entire documantion is about",
+      "id": "c3d59f29-d9da-453c-b23b-a81d941f9698",
+      "created_at": "2026-10-04T05:24:39.300524+00:00"
+    },
+    {
+      "session_id": "f4bc1b1e-9c59-499c-a237-62b6432f970f",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "f396244e-9c77-4a62-8337-1d57af49444f",
+      "created_at": "2026-10-04T05:24:39.390221+00:00"
+    },
+    {
+      "session_id": "e428b9bb-e9e4-466d-9f5b-950830f98dd3",
+      "role": "user",
+      "content": "What was Apple's total net sales for fiscal year 2023?",
+      "id": "eb6810c3-0568-4351-94e5-fa88389caf13",
+      "created_at": "2026-10-04T05:42:36.006912+00:00"
+    },
+    {
+      "session_id": "e428b9bb-e9e4-466d-9f5b-950830f98dd3",
+      "role": "assistant",
+      "content": "Based on the records in Apple Sales Document: total net sales in 2023 were $383,285 million.",
+      "supported": true,
+      "confidence": 0.85,
+      "verification_status": "verified_grounded",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.667,
+        "grounding_verdict": "VERIFIED_GROUNDED",
+        "unsupported_reason": null
+      },
+      "citations": [
+        {
+          "document": "Apple Sales Document",
+          "page": 1,
+          "chunk": "Chunk 1",
+          "exact_quote": "total net sales in 2023 were $383,285 million.",
+          "similarity_score": 0.8903
+        }
+      ],
+      "id": "1e90bc3c-5b14-4b03-bde2-3478ce9577c1",
+      "created_at": "2026-10-04T05:42:36.063618+00:00"
+    },
+    {
+      "session_id": "54e3cdbf-5afb-48e1-99fb-99aa82c86eb0",
+      "role": "user",
+      "content": "give me company owner number",
+      "id": "655488d4-997e-4ac6-8054-280f8f13c2e1",
+      "created_at": "2026-10-04T05:42:59.292768+00:00"
+    },
+    {
+      "session_id": "54e3cdbf-5afb-48e1-99fb-99aa82c86eb0",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "3cbb5245-69a6-42dd-9ad0-ef4ba5ae718d",
+      "created_at": "2026-10-04T05:42:59.324161+00:00"
+    },
+    {
+      "session_id": "8c05335f-1d46-4c87-a126-9f0af2b7d03c",
+      "role": "user",
+      "content": "how to prepare a coffe",
+      "id": "82b194c3-1620-4ecf-a9ba-0bf37b038d89",
+      "created_at": "2026-10-04T05:43:14.256370+00:00"
+    },
+    {
+      "session_id": "8c05335f-1d46-4c87-a126-9f0af2b7d03c",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "42118025-1815-4a88-bb7d-321d65078dfd",
+      "created_at": "2026-10-04T05:43:14.318381+00:00"
+    },
+    {
+      "session_id": "053c5bd9-d3ce-4e89-9043-3b1268a6b383",
+      "role": "user",
+      "content": "what is the documantiono is all about",
+      "id": "7c5e85e8-f0e9-4494-97f7-db3811bcfe05",
+      "created_at": "2026-10-04T05:43:30.421958+00:00"
+    },
+    {
+      "session_id": "053c5bd9-d3ce-4e89-9043-3b1268a6b383",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "b55d8b59-5d7c-4cc8-86c2-2a62d3ee4c5c",
+      "created_at": "2026-10-04T05:43:30.468699+00:00"
+    },
+    {
+      "session_id": "f289986e-d3e3-4fbc-8412-043e94015187",
+      "role": "user",
+      "content": "what kind of documents do you have",
+      "id": "d02dcf60-6f39-49c5-8e90-eb4ca2d7c5ff",
+      "created_at": "2026-10-04T05:44:10.000237+00:00"
+    },
+    {
+      "session_id": "f289986e-d3e3-4fbc-8412-043e94015187",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "70c0280a-8c92-47b6-ba43-7688d31d4a83",
+      "created_at": "2026-10-04T05:44:10.043281+00:00"
+    },
+    {
+      "session_id": "35308780-0f4c-4c5c-b09a-73192c8de009",
+      "role": "user",
+      "content": "What was Apple's total net sales for fiscal year 2023?",
+      "id": "ccf10ab2-f584-4b94-aaad-834220ed6eba",
+      "created_at": "2026-10-04T05:45:48.976208+00:00"
+    },
+    {
+      "session_id": "35308780-0f4c-4c5c-b09a-73192c8de009",
+      "role": "assistant",
+      "content": "Based on the records in Apple Sales Document: total net sales in 2023 were $383,285 million.",
+      "supported": true,
+      "confidence": 0.85,
+      "verification_status": "verified_grounded",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.667,
+        "grounding_verdict": "VERIFIED_GROUNDED",
+        "unsupported_reason": null
+      },
+      "citations": [
+        {
+          "document": "Apple Sales Document",
+          "page": 1,
+          "chunk": "Chunk 1",
+          "exact_quote": "total net sales in 2023 were $383,285 million.",
+          "similarity_score": 0.8903
+        }
+      ],
+      "id": "b4cc9d0d-0bfa-4e7c-856b-79ec09456151",
+      "created_at": "2026-10-04T05:45:49.034333+00:00"
+    },
+    {
+      "session_id": "99fb1f9f-44f6-4b18-a6b3-25318a71b32c",
+      "role": "user",
+      "content": "What was Microsoft's operating income in fiscal year 2023?",
+      "id": "049e5390-6e94-44fb-af47-59398205b9fc",
+      "created_at": "2026-10-04T05:47:50.015743+00:00"
+    },
+    {
+      "session_id": "99fb1f9f-44f6-4b18-a6b3-25318a71b32c",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "116870c2-e12b-4c45-ac4f-f6e2b0178913",
+      "created_at": "2026-10-04T05:47:50.058571+00:00"
+    },
+    {
+      "session_id": "8081e651-834d-4b83-9b98-db18964c1a82",
+      "role": "user",
+      "content": "What was Microsoft's operating income in fiscal year 2023?",
+      "id": "4f7ff738-9175-4480-a5f4-460eed580001",
+      "created_at": "2026-10-04T06:00:06.501610+00:00"
+    },
+    {
+      "session_id": "8081e651-834d-4b83-9b98-db18964c1a82",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "e485880a-a21a-4b82-880c-26abb3d08321",
+      "created_at": "2026-10-04T06:00:06.577396+00:00"
+    },
+    {
+      "session_id": "3797e98b-f5d4-4c84-8fa0-5a80e5bdf275",
+      "role": "user",
+      "content": "What was Microsoft's operating income in fiscal year 2023?",
+      "id": "69a6070a-86f9-46ce-a6bc-ee7c671209f9",
+      "created_at": "2026-10-04T06:05:27.488333+00:00"
+    },
+    {
+      "session_id": "3797e98b-f5d4-4c84-8fa0-5a80e5bdf275",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "77fd31a1-eb1e-4c78-b475-eb2ca3d88bd2",
+      "created_at": "2026-10-04T06:05:27.495121+00:00"
+    },
+    {
+      "session_id": "bc9cac6f-7713-43a4-a7bd-1129c9a552d3",
+      "role": "user",
+      "content": "What was Microsoft's operating income in fiscal year 2023?",
+      "id": "7332ca8f-271a-4a38-be13-f525c388bba8",
+      "created_at": "2026-10-04T06:09:35.034361+00:00"
+    },
+    {
+      "session_id": "bc9cac6f-7713-43a4-a7bd-1129c9a552d3",
+      "role": "assistant",
+      "content": "$88,523 million",
+      "supported": true,
+      "confidence": 1.0,
+      "verification_status": "verified_grounded",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 1.0,
+        "grounding_verdict": "VERIFIED_GROUNDED",
+        "unsupported_reason": null
+      },
+      "citations": [
+        {
+          "document": "Microsoft 2023 10K",
+          "page": 32,
+          "chunk": "Chunk 3",
+          "exact_quote": "expense: $22,759 million\nGeneral and administrative expense: $7,575 million\nTotal operating expenses: $57,529 million\n\nOperating income:\nTotal operating income was $88,523 million in fiscal year 2023, compared to $83,383 million in fiscal year 2022, representing an increase of 6%.",
+          "similarity_score": 0.77
+        }
+      ],
+      "id": "b4c81015-6a36-4b93-8349-272eece2a88f",
+      "created_at": "2026-10-04T06:09:35.049489+00:00"
+    },
+    {
+      "session_id": "8d2e086b-9bd1-439d-b3d9-9c2bf1cc9f4d",
+      "role": "user",
+      "content": "how to prepare a copy ?",
+      "id": "f3bf44c9-39fc-4e90-84b6-91452df230e5",
+      "created_at": "2026-10-04T06:09:49.889522+00:00"
+    },
+    {
+      "session_id": "8d2e086b-9bd1-439d-b3d9-9c2bf1cc9f4d",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "62f60f68-d675-4b9e-a789-840387fe5858",
+      "created_at": "2026-10-04T06:09:49.923725+00:00"
+    },
+    {
+      "session_id": "56097747-a776-4c39-83aa-5763e79897da",
+      "role": "user",
+      "content": "what is the document is all about",
+      "id": "b4f2eb89-46c2-4e79-b2fe-eb2054ae1a2a",
+      "created_at": "2026-10-04T06:10:03.124497+00:00"
+    },
+    {
+      "session_id": "56097747-a776-4c39-83aa-5763e79897da",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "286882a4-62d8-4d1d-a00c-fc37698a3b80",
+      "created_at": "2026-10-04T06:10:03.162033+00:00"
+    },
+    {
+      "session_id": "92479cf9-41a5-49e2-8ce4-7a45cbf15208",
+      "role": "user",
+      "content": "What were Apple's R&D expenses in 2023?",
+      "id": "46b539d4-971f-43a3-a1c9-f466bb637683",
+      "created_at": "2026-10-04T06:11:15.476436+00:00"
+    },
+    {
+      "session_id": "92479cf9-41a5-49e2-8ce4-7a45cbf15208",
+      "role": "assistant",
+      "content": "Apple's research and development (R&D) expense in 2023 was $29,915 million.",
+      "supported": true,
+      "confidence": 1.0,
+      "verification_status": "verified_grounded",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 1.0,
+        "grounding_verdict": "VERIFIED_GROUNDED",
+        "unsupported_reason": null
+      },
+      "citations": [
+        {
+          "document": "Apple 2023 10K",
+          "page": 24,
+          "chunk": "Chunk 3",
+          "exact_quote": "Operating expenses:\nResearch and development (R&D): $29,915 million\nSelling, general and administrative (SG&A): $24,932 million\nTotal operating expenses: $54,847 million\nOperating income: $114,301 million in 2023 compared to $119,437 million in 2022.",
+          "similarity_score": 0.7287
+        }
+      ],
+      "id": "75eafb67-3dd1-4ba7-b4af-5b7c1a28dcc5",
+      "created_at": "2026-10-04T06:11:15.502357+00:00"
+    },
+    {
+      "session_id": "bcadbf6f-648f-46a6-b721-184b17543395",
+      "role": "user",
+      "content": "What was Apple's revenue from quantum teleportation services in 2023?",
+      "id": "24b782dc-2cd7-4222-837a-d41de5429de3",
+      "created_at": "2026-10-04T06:11:27.552155+00:00"
+    },
+    {
+      "session_id": "bcadbf6f-648f-46a6-b721-184b17543395",
+      "role": "assistant",
+      "content": "I don't know based on the provided documents.",
+      "supported": false,
+      "confidence": 0.0,
+      "verification_status": "abstained_unsupported",
+      "verification_details": {
+        "citations_verified": true,
+        "factual_overlap_score": 0.0,
+        "grounding_verdict": "ABSTAINED_UNSUPPORTED",
+        "unsupported_reason": "No sufficient evidence found in context"
+      },
+      "citations": [],
+      "id": "eab804b9-393c-468c-8950-1420ce373568",
+      "created_at": "2026-10-04T06:11:27.622273+00:00"
+    }
+  ],
+  "citations": [],
+  "evaluation_results": [
+    {
+      "question_id": "FB-AAPL-001",
+      "company": "Apple Inc.",
+      "question": "What was Apple's total net sales for the fiscal year ended September 30, 2023?",
+      "ground_truth_answer": "Apple's total net sales for fiscal year 2023 were $383,285 million ($383.29 billion), compared to $394,328 million in fiscal year 2022.",
+      "predicted_answer": "Based on the records in Apple 2023 10K: Consolidated Statements of Operations\n(In millions, except number of shares which are reflected in thousands and per share amounts)\nYears ended September 30, 2023, September 24, 2022 and September 25, 2021\n\nTotal net sales:\nFiscal Year 2023: $383,285 million\nFiscal Year 2022: $394,328 million\nFiscal Year 2021: $365,817 million\n\nCost of sales:\nProducts cost of sales in 2023: $214,137 million\nServices cost of sales in 2023: $27,157 million\nTotal cost of sales in 2023: $241,294 million\nGross margin: $141,991 million in 2023 compared to $170,782 million in 2022.",
+      "ground_truth_page": 24,
+      "predicted_pages": [
+        24
+      ],
+      "is_out_of_domain": false,
+      "predicted_supported": true,
+      "answer_correct": true,
+      "citation_correct": true,
+      "retrieval_correct": true,
+      "faithfulness_score": 0.96,
+      "abstention_correct": true,
+      "latency_ms": 36,
+      "notes": "VERIFIED_GROUNDED",
+      "run_id": "790b2572-394b-4119-81ca-1e36ce08b488",
+      "created_at": "2026-10-04T04:48:18.796317+00:00"
+    },
+    {
+      "question_id": "FB-AAPL-002",
+      "company": "Apple Inc.",
+      "question": "What was Apple's net income for fiscal year 2023?",
+      "ground_truth_answer": "Apple's net income for fiscal year 2023 was $96,995 million ($97.0 billion), compared to $99,803 million in fiscal year 2022.",
+      "predicted_answer": "Based on the records in Apple 2023 10K: $16,741 million\nNet income: $96,995 million in 2023, compared to $99,803 million in 2022 and $94,680 million in 2021.",
+      "ground_truth_page": 24,
+      "predicted_pages": [
+        24
+      ],
+      "is_out_of_domain": false,
+      "predicted_supported": true,
+      "answer_correct": true,
+      "citation_correct": true,
+      "retrieval_correct": true,
+      "faithfulness_score": 0.778,
+      "abstention_correct": true,
+      "latency_ms": 13,
+      "notes": "VERIFIED_GROUNDED",
+      "run_id": "790b2572-394b-4119-81ca-1e36ce08b488",
+      "created_at": "2026-10-04T04:48:18.796317+00:00"
+    },
+    {
+      "question_id": "FB-AAPL-003",
+      "company": "Apple Inc.",
+      "question": "What was the total research and development (R&D) expense for Apple in fiscal year 2023?",
+      "ground_truth_answer": "Apple incurred $29,915 million in research and development expenses during fiscal year 2023.",
+      "predicted_answer": "Based on the records in Apple 2023 10K: Total research and development expense was $29,915 million for fiscal year 2023, representing approximately 7.8% of total net sales.",
+      "ground_truth_page": 25,
+      "predicted_pages": [
+        25
+      ],
+      "is_out_of_domain": false,
+      "predicted_supported": true,
+      "answer_correct": true,
+      "citation_correct": true,
+      "retrieval_correct": true,
+      "faithfulness_score": 0.857,
+      "abstention_correct": true,
+      "latency_ms": 106,
+      "notes": "VERIFIED_GROUNDED",
+      "run_id": "790b2572-394b-4119-81ca-1e36ce08b488",
+      "created_at": "2026-10-04T04:48:18.796317+00:00"
+    },
+    {
+      "question_id": "FB-MSFT-001",
+      "company": "Microsoft Corporation",
+      "question": "What was Microsoft's total revenue for the fiscal year ended June 30, 2023?",
+      "ground_truth_answer": "Microsoft's total revenue was $211,915 million for fiscal year 2023, representing an increase of 7% from $198,270 million in fiscal year 2022.",
+      "predicted_answer": "I don't know based on the provided documents.",
+      "ground_truth_page": 32,
+      "predicted_pages": [],
+      "is_out_of_domain": false,
+      "predicted_supported": false,
+      "answer_correct": false,
+      "citation_correct": false,
+      "retrieval_correct": true,
+      "faithfulness_score": 0.0,
+      "abstention_correct": false,
+      "latency_ms": 344,
+      "notes": "ABSTAINED_UNSUPPORTED",
+      "run_id": "790b2572-394b-4119-81ca-1e36ce08b488",
+      "created_at": "2026-10-04T04:48:18.796317+00:00"
+    },
+    {
+      "question_id": "FB-MSFT-002",
+      "company": "Microsoft Corporation",
+      "question": "What was Microsoft's operating income in fiscal year 2023?",
+      "ground_truth_answer": "Microsoft reported operating income of $88,523 million in fiscal year 2023, up 6% from $83,383 million in fiscal year 2022.",
+      "predicted_answer": "I don't know based on the provided documents.",
+      "ground_truth_page": 32,
+      "predicted_pages": [],
+      "is_out_of_domain": false,
+      "predicted_supported": false,
+      "answer_correct": false,
+      "citation_correct": false,
+      "retrieval_correct": true,
+      "faithfulness_score": 0.0,
+      "abstention_correct": false,
+      "latency_ms": 123,
+      "notes": "ABSTAINED_UNSUPPORTED",
+      "run_id": "790b2572-394b-4119-81ca-1e36ce08b488",
+      "created_at": "2026-10-04T04:48:18.796317+00:00"
+    },
+    {
+      "question_id": "FB-AMZN-001",
+      "company": "Amazon.com, Inc.",
+      "question": "What was Amazon's total net sales in 2023?",
+      "ground_truth_answer": "Amazon's net sales increased 12% to $574.8 billion in 2023, compared with $514.0 billion in 2022.",
+      "predicted_answer": "I don't know based on the provided documents.",
+      "ground_truth_page": 38,
+      "predicted_pages": [],
+      "is_out_of_domain": false,
+      "predicted_supported": false,
+      "answer_correct": false,
+      "citation_correct": false,
+      "retrieval_correct": true,
+      "faithfulness_score": 0.0,
+      "abstention_correct": false,
+      "latency_ms": 64,
+      "notes": "ABSTAINED_UNSUPPORTED",
+      "run_id": "790b2572-394b-4119-81ca-1e36ce08b488",
+      "created_at": "2026-10-04T04:48:18.796317+00:00"
+    },
+    {
+      "question_id": "FB-ADV-001",
+      "company": "Apple Inc.",
+      "question": "What was Apple's total revenue generated from quantum teleportation services in fiscal year 2023?",
+      "ground_truth_answer": "I don't know based on the provided documents.",
+      "predicted_answer": "I don't know based on the provided documents.",
+      "ground_truth_page": null,
+      "predicted_pages": [],
+      "is_out_of_domain": true,
+      "predicted_supported": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "retrieval_correct": true,
+      "faithfulness_score": 0.0,
+      "abstention_correct": true,
+      "latency_ms": 88,
+      "notes": "ABSTAINED_UNSUPPORTED",
+      "run_id": "790b2572-394b-4119-81ca-1e36ce08b488",
+      "created_at": "2026-10-04T04:48:18.796317+00:00"
+    },
+    {
+      "question_id": "FB-ADV-002",
+      "company": "Microsoft Corporation",
+      "question": "What was Microsoft's total expenditure on subterranean hyperloop transit tunnels in FY23?",
+      "ground_truth_answer": "I don't know based on the provided documents.",
+      "predicted_answer": "I don't know based on the provided documents.",
+      "ground_truth_page": null,
+      "predicted_pages": [],
+      "is_out_of_domain": true,
+      "predicted_supported": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "retrieval_correct": true,
+      "faithfulness_score": 0.0,
+      "abstention_correct": true,
+      "latency_ms": 29,
+      "notes": "ABSTAINED_UNSUPPORTED",
+      "run_id": "790b2572-394b-4119-81ca-1e36ce08b488",
+      "created_at": "2026-10-04T04:48:18.796317+00:00"
+    },
+    {
+      "question_id": "FB-ADV-003",
+      "company": "Amazon.com, Inc.",
+      "question": "What is the private home address and shoe size of the CEO reported in Amazon's financial statements?",
+      "ground_truth_answer": "I don't know based on the provided documents.",
+      "predicted_answer": "I don't know based on the provided documents.",
+      "ground_truth_page": null,
+      "predicted_pages": [],
+      "is_out_of_domain": true,
+      "predicted_supported": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "retrieval_correct": true,
+      "faithfulness_score": 0.0,
+      "abstention_correct": true,
+      "latency_ms": 68,
+      "notes": "ABSTAINED_UNSUPPORTED",
+      "run_id": "790b2572-394b-4119-81ca-1e36ce08b488",
+      "created_at": "2026-10-04T04:48:18.796317+00:00"
+    }
+  ]
+}

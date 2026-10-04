@@ -1,0 +1,43 @@
+[Page: 31]
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+FORM 10-K
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the fiscal year ended June 30, 2023
+MICROSOFT CORPORATION
+(Exact name of Registrant as specified in its charter)
+
+BUSINESS OVERVIEW
+Microsoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more. We strive to create local opportunity, growth, and impact in every country around the world. We generate revenue by offering a wide range of cloud-based solutions, software licenses, devices, and support services.
+
+[Page: 32]
+INCOME STATEMENTS
+(In millions, except per share amounts)
+Year Ended June 30, 2023, 2022, and 2021
+
+Revenue:
+Product revenue: $64,699 million
+Service and other revenue: $147,216 million
+Total revenue: $211,915 million in fiscal year 2023, compared to $198,270 million in fiscal year 2022 and $168,088 million in 2021.
+Total revenue increased $13,645 million or 7% year-over-year.
+
+Cost of revenue:
+Product cost of revenue: $18,219 million
+Service and other cost of revenue: $47,644 million
+Total cost of revenue: $65,863 million
+Gross margin: $146,052 million in 2023 compared to $135,620 million in 2022.
+
+Research and development expense: $27,195 million
+Sales and marketing expense: $22,759 million
+General and administrative expense: $7,575 million
+Total operating expenses: $57,529 million
+
+Operating income:
+Total operating income was $88,523 million in fiscal year 2023, compared to $83,383 million in fiscal year 2022, representing an increase of 6%.
+
+Other income/(expense), net: $788 million
+Income before income taxes: $89,311 million
+Provision for income taxes: $16,950 million
+Net income: $72,361 million in 2023, compared to $72,738 million in 2022.
+
+Diluted earnings per share: $9.68 in 2023 compared to $9.65 in 2022.
